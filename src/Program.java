@@ -8,7 +8,7 @@ public class Program {
 		System.out.println(myCar.toString());
 		
 		Train smallTrain = new Train(false);
-		System.out.println("Does my small train have storage?" + smallTrain.haveStorage());
+		System.out.println("Does my small train have storage? " + smallTrain.haveStorage());
 		
 		
 	}

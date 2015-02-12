@@ -21,7 +21,7 @@ public abstract class Vehicle {
 		this._passangerCount = _passangerCount;
 	}
 	//Contructor ----------------------------------------------------------------------------
-	public void Vehicle() {
+	public Vehicle() {
 		
 	}
 
@@ -29,7 +29,7 @@ public abstract class Vehicle {
 	@Override
 	public String toString() {
 		
-		return "You the vehicle has " + this._tireCount + " tires.";
+		return "The Vehicle has " + this._tireCount + " tires.";
 	}
 
 
